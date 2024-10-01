@@ -11,7 +11,6 @@ import kotlinx.cinterop.ExperimentalForeignApi
 @OptIn(ExperimentalForeignApi::class)
 @Composable
 actual fun MapComponent() {
-    NMFAuthManager.shared().clientId
     UIKitView(
         factory = {
             NMFMapView()
