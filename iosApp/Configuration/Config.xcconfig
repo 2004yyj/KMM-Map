@@ -1,0 +1,4 @@
+TEAM_ID=
+BUNDLE_ID=com.yyj.maptest.MapTest
+APP_NAME=MapTest
+NAVER_CLIENT_ID={발급받은 client id}

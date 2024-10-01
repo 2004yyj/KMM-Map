@@ -1,0 +1,28 @@
+PODS:
+  - composeApp (1.0):
+    - NMapsGeometry (= 1.0.2)
+    - NMapsMap (= 3.18.0)
+  - NMapsGeometry (1.0.2)
+  - NMapsMap (3.18.0):
+    - NMapsGeometry
+
+DEPENDENCIES:
+  - composeApp (from `../composeApp`)
+
+SPEC REPOS:
+  trunk:
+    - NMapsGeometry
+    - NMapsMap
+
+EXTERNAL SOURCES:
+  composeApp:
+    :path: "../composeApp"
+
+SPEC CHECKSUMS:
+  composeApp: 987d09c03a2c1469c74a00e28182c6d74acdb2af
+  NMapsGeometry: 4e02554fa9880ef02ed96b075dc84355d6352479
+  NMapsMap: 36dc18a1f5f315121b33fccd2398c7a702bf0fc8
+
+PODFILE CHECKSUM: d790bba44bc2d98e9174eed3dbdd69a66a94fa57
+
+COCOAPODS: 1.15.2
